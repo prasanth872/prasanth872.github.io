@@ -1,0 +1,91 @@
+body {
+    font-family: "Roboto Condensed", Arial;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: #337ab7;
+}
+
+.navbar-brand, .navbar-nav {
+    text-transform: uppercase;
+}
+
+header .container {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+section.first, section#portfolio, section#contact {
+    padding-top: 55px;
+}
+
+.max {
+    border-radius: 7%;
+    box-shadow: 1px 1px 3px #ccc;
+}
+
+.col-sm-4 {
+    margin-bottom: 13px;
+}
+
+.port {
+    background: url(https://i.ibb.co/mShtpCq/port.jpg) center no-repeat;
+    background-size: auto;
+}
+
+.port:hover {
+    transition: .7s;
+}
+
+img.zoom {
+    background: #000;
+    transition: transform .5s ease-in;
+    opacity: 0.1;
+}
+
+img.zoom:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 47px;
+    margin: 3px 0 5px;
+}
+
+.scroll-top {
+    z-index: 9999;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+.footer {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
